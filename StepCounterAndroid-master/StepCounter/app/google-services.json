@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "314041011395",
+    "firebase_url": "https://stepcounter-99491.firebaseio.com",
+    "project_id": "stepcounter-99491",
+    "storage_bucket": "stepcounter-99491.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314041011395:android:b74c7087e6dce032",
+        "android_client_info": {
+          "package_name": "com.bakerapps.stepcounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314041011395-eek2ugdnkfsr4107j38tj44e7tjkndqk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bakerapps.stepcounter",
+            "certificate_hash": "addd46549480891519037e7a7ee08c76c08e8460"
+          }
+        },
+        {
+          "client_id": "314041011395-bbnb8rqtald2nl4v8kpmf8ta9kgeu3pm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bakerapps.stepcounter",
+            "certificate_hash": "89c5f53d2129eb4a92b987da6d5219912ff660b6"
+          }
+        },
+        {
+          "client_id": "314041011395-h3a0vic2fikl1e5ok8tnhuoc90itldb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDtcloWqBKvaL20PCKZhmpxGIc7s1ZIe8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314041011395-h3a0vic2fikl1e5ok8tnhuoc90itldb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

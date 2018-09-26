@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bakerapps.stepcounter.MainActivity"
+    android:background="#00BFFF">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/stepcounterImage"
+        />
+
+    <TextView
+        android:text="Welcome to"
+        android:textSize="26dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/headlineLabel"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="90dp"
+        android:shadowDy="2"
+        android:shadowColor="#00008B"
+        android:shadowRadius="2"/>
+
+    <TextView
+        android:text="STEP COUNTER"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headlineLabel"
+        android:id="@+id/stepcounterLabel"
+        android:textColor="#FFFFFF"
+        android:shadowDy="4"
+        android:shadowColor="#00008B"
+        android:shadowRadius="4"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/inputUsername"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:textCursorDrawable="@null"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/inputUsername"
+        android:id="@+id/btnSubmit"
+        android:onClick="submitOnClick"
+        android:backgroundTint="#FFFFFF"/>
+
+
+</RelativeLayout>
